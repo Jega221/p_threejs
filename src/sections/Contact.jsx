@@ -1,7 +1,7 @@
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
 
-import useAlert from "../hooks/useAlert.js";
+import useAlert from "../hook/useAlert.js";
 import Alert from '../components/Alert.jsx';
 
 const Contact = () => {
