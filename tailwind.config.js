@@ -14,6 +14,8 @@ export default {
           300: '#1C1C21',
           500: '#3A3A49',
           600: '#1A1A1A',
+          'project-bg1': '#FFEFDB',
+          'project-bg2': '#FFE7EB',
         },
         white: {
           DEFAULT: '#FFFFFF',

@@ -78,12 +78,52 @@ body {
   }
 
   /* projects section  */
-  .arrow-btn {
-    @apply w-10 h-10 p-3 cursor-pointer active:scale-95 transition-all rounded-full arrow-gradient;
+  .app-showcase {
+    @apply w-full mt-20 px-5 md:px-20 py-10 md:py-20 flex items-center justify-center;
   }
 
-  .tech-logo {
-    @apply w-10 h-10 rounded-md p-2 bg-neutral-100 bg-opacity-10 backdrop-filter backdrop-blur-lg flex justify-center items-center;
+  .showcaselayout {
+    @apply flex xl:flex-row flex-col gap-10 justify-between;
+  }
+
+  .first-project-wrapper {
+    @apply h-full flex flex-col justify-between xl:w-[60%];
+  }
+
+  .first-project-image-wrapper {
+    @apply xl:h-[70vh] md:h-[50vh] h-96 relative;
+  }
+
+  .first-project-image {
+    @apply w-full h-full object-cover rounded-xl absolute inset-0;
+  }
+
+  .first-project-text {
+    @apply space-y-5 mt-5;
+  }
+
+  .project-badges {
+    @apply flex gap-2 mb-4;
+  }
+
+  .project-title {
+    @apply text-2xl md:text-3xl lg:text-4xl font-bold;
+  }
+
+  .project-list-wrapper {
+    @apply flex md:flex-row flex-col xl:flex-col gap-10 xl:w-[40%];
+  }
+
+  .project-image-wrapper {
+    @apply xl:h-[37vh] md:h-52 lg:h-72 h-64 relative rounded-xl xl:px-5 2xl:px-12 py-0;
+  }
+
+  .project-image {
+    @apply w-full h-full object-contain rounded-xl;
+  }
+
+  .project-heading {
+    @apply text-lg md:text-xl lg:text-2xl font-semibold mt-5;
   }
 
   /* clients section */
